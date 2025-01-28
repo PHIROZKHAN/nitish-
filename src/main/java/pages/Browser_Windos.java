@@ -21,5 +21,8 @@ public class Browser_Windos extends BaseLibrary {
 	
 	@FindBy(xpath = "//*[@data-target=\"#widget\"]")
 	private WebElement wigets;
+	@FindBy (xpath=" //a[text()='accordion']")
+	private WebElement accordian;
+	
 
 }
