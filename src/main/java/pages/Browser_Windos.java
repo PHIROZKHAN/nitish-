@@ -23,6 +23,6 @@ public class Browser_Windos extends BaseLibrary {
 	private WebElement wigets;
 	@FindBy (xpath=" //a[text()='accordion']")
 	private WebElement accordian;
-	
+	          
 
 }
