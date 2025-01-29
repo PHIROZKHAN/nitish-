@@ -21,7 +21,13 @@
   
   <test name="RadioButtons" enabled="false">
 	  <classes>
-		  <class name="test.RadioButtonsTest"></class>
+		  <class name="test.RadioButtonsTest"></class> 
+	  </classes>
+  </test>
+  
+  <test name="AccordianTest" enabled="true">
+	  <classes>
+		  <class name="test.AccordianTest"></class>
 	  </classes>
   </test>
 </suite> <!-- Suite -->

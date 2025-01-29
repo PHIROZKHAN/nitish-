@@ -2,40 +2,48 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-24T18:51:47 IST" name="Default suite" finished-at="2025-01-24T18:52:10 IST" duration-ms="22147">
+  <suite started-at="2025-01-29T14:09:53 IST" name="Suite" finished-at="2025-01-29T14:10:05 IST" duration-ms="11969">
     <groups>
+      <group name="smoke">
+        <method signature="AccordianTest.clickAtAccordian()[pri:4, instance:test.AccordianTest@67c27493]" name="clickAtAccordian" class="test.AccordianTest"/>
+        <method signature="AccordianTest.clickAtAccordianpara1()[pri:5, instance:test.AccordianTest@67c27493]" name="clickAtAccordianpara1" class="test.AccordianTest"/>
+        <method signature="AccordianTest.clickAtAccordiantext()[pri:6, instance:test.AccordianTest@67c27493]" name="clickAtAccordiantext" class="test.AccordianTest"/>
+        <method signature="AccordianTest.clickAtClose()[pri:1, instance:test.AccordianTest@67c27493]" name="clickAtClose" class="test.AccordianTest"/>
+        <method signature="AccordianTest.clickAtPractice()[pri:2, instance:test.AccordianTest@67c27493]" name="clickAtPractice" class="test.AccordianTest"/>
+        <method signature="AccordianTest.clickAtWigets()[pri:3, instance:test.AccordianTest@67c27493]" name="clickAtWigets" class="test.AccordianTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-01-24T18:51:47 IST" name="Default test" finished-at="2025-01-24T18:52:10 IST" duration-ms="22147">
-      <class name="test.Text_box_test">
-        <test-method is-config="true" signature="launcher()[pri:0, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:51:47 IST" name="launcher" finished-at="2025-01-24T18:52:02 IST" duration-ms="14496" status="PASS">
+    <test started-at="2025-01-29T14:09:53 IST" name="AccordianTest" finished-at="2025-01-29T14:10:05 IST" duration-ms="11969">
+      <class name="test.AccordianTest">
+        <test-method is-config="true" signature="launcher()[pri:0, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:09:53 IST" name="launcher" finished-at="2025-01-29T14:10:02 IST" duration-ms="8563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launcher -->
-        <test-method signature="clickAtClose()[pri:1, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:02 IST" name="clickAtClose" finished-at="2025-01-24T18:52:03 IST" duration-ms="705" status="PASS">
+        <test-method signature="clickAtClose()[pri:1, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:02 IST" name="clickAtClose" finished-at="2025-01-29T14:10:02 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAtClose -->
-        <test-method signature="clickAtPractice()[pri:2, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:03 IST" name="clickAtPractice" finished-at="2025-01-24T18:52:06 IST" duration-ms="2528" status="PASS">
+        <test-method signature="clickAtPractice()[pri:2, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:02 IST" name="clickAtPractice" finished-at="2025-01-29T14:10:04 IST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickAtPractice -->
-        <test-method signature="clickAtElement()[pri:3, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:06 IST" name="clickAtElement" finished-at="2025-01-24T18:52:06 IST" duration-ms="309" status="PASS">
+        <test-method signature="clickAtWigets()[pri:3, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:04 IST" name="clickAtWigets" finished-at="2025-01-29T14:10:04 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAtElement -->
-        <test-method signature="clickAtBox()[pri:4, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:06 IST" name="clickAtBox" finished-at="2025-01-24T18:52:07 IST" duration-ms="583" status="PASS">
+        </test-method> <!-- clickAtWigets -->
+        <test-method signature="clickAtAccordian()[pri:4, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:05 IST" name="clickAtAccordian" finished-at="2025-01-29T14:10:05 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAtBox -->
-        <test-method signature="clickAtFillDetails()[pri:5, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:07 IST" name="clickAtFillDetails" finished-at="2025-01-24T18:52:09 IST" duration-ms="2529" status="PASS">
+        </test-method> <!-- clickAtAccordian -->
+        <test-method signature="clickAtAccordianpara1()[pri:5, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:05 IST" name="clickAtAccordianpara1" finished-at="2025-01-29T14:10:05 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickAtFillDetails -->
-        <test-method signature="validate()[pri:6, instance:test.Text_box_test@49139829]" started-at="2025-01-24T18:52:09 IST" name="validate" finished-at="2025-01-24T18:52:10 IST" duration-ms="394" status="PASS">
+        </test-method> <!-- clickAtAccordianpara1 -->
+        <test-method signature="clickAtAccordiantext()[pri:6, instance:test.AccordianTest@67c27493]" started-at="2025-01-29T14:10:05 IST" name="clickAtAccordiantext" finished-at="2025-01-29T14:10:05 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate -->
-      </class> <!-- test.Text_box_test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- clickAtAccordiantext -->
+      </class> <!-- test.AccordianTest -->
+    </test> <!-- AccordianTest -->
+  </suite> <!-- Suite -->
 </testng-results>
