@@ -24,5 +24,10 @@ public class Browser_Windos extends BaseLibrary {
 	@FindBy (xpath=" //a[text()='accordion']")
 	private WebElement accordian;
 	
+	@FindBy (xpath = "//*[@data-target=\"#collapse1\"]")
+	private WebElement Acordianhead;
+	@FindBy (xpath = "//div[@id=\"collapse1\"]/div")
+	private WebElement accordiantext;
+	          
 
 }
